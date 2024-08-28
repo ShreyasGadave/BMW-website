@@ -1,40 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "Kanit", sans-serif;
+body {
+  font-family: "Kanit", sans-serif;
 }
 /* Navbar */
 
-.navbar{
-    height: 86px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.navbar {
+  height: 86px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar_1{
-    display: inline-flex;
-    position: relative;
-    height: 85px;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-left: 10px;
-    cursor: pointer;
+.navbar_1 {
+  display: inline-flex;
+  position: relative;
+  height: 85px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
-.navbar_1:hover{
-color: rgb(92, 92, 246);
-
+.navbar_1:hover {
+  color: rgb(92, 92, 246);
 }
-.navbar_2 img{
-    height: 36px;
-    width: 170px;
+.navbar_2 img {
+  height: 36px;
+  width: 170px;
+  margin-right: 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.body_head-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+  background: #16171a;
+  height: 70px;
+  transition: top 0.55s;
+  cursor: pointer;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 200;
+  font-size: medium;
+}
+
+.btn_model {
+  height: 30px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.models_bike {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 200;
+  font-size: large;
+  height: 100px;
+  background-color: #e6e5e5;
+  cursor: pointer;
+}
+
+.body_head-2 {
+  display: flex;
+  justify-content: start;
+  margin-left: 30px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  padding: 30px 11px 3px;
+  width: 100vw;
+}
+
+.models_bike .model_1:hover{
+    color:rgb(92, 92, 246);
+}
+.bikes {
+  background-color: #d1d2d7;
+  height: 4597px;
+  width: 100vw;
+}
+.bike_img {
+  width: 247px;
+  height: 149px;
+}
+
+.box {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.bike_names {
+  height: 149px;
+  width: 259px;
+  padding: 20px 20px 9px;
+  background-color: white;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.inner_name {
+  font-weight: 200;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.comp {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+input {
+  height: 18px;
+  width: 18px;
+  margin-top: 10px;
 }
