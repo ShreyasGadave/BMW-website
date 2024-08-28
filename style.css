@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+/* Navbar */
+
+.navbar{
+    height: 86px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar_1{
+    display: inline-flex;
+    position: relative;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar_1:hover{
+color: rgb(92, 92, 246);
+
+}
+.navbar_2 img{
+    height: 36px;
+    width: 170px;
+}
